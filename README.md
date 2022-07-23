@@ -3,6 +3,14 @@
 
 ## React Client Application Routes
 
+## Screenshot
+
+![login](./client/login.jpeg)
+![indovinelli](./client/riddles.jpeg)
+![nuovo_indovinello](./client/new_riddle.jpeg)
+![rank](./client/rank.jpeg)
+![risposta](./client/risposta.jpeg)
+
 - Route `/`: porta alla pagina principale attraverso la quale si accede a tutte le funzionalità dell'applicazione. Nel caso non si fosse loggati, la route riporterà alla route /login.
 - Route `/filter/:activeFilter`: porta alla pagina principale specificando cosa deve essere visualizzato (tutti gli indovinelli, gli indovinelli dell'utente loggato, la classifica) grazie al parametro "active filter". Nel caso non si fosse loggati, la route riporterà alla route /login.
 - Route `/anonimo`: porta alla pagina principale adattata per la visualizzazione da parte di utente non loggato (ospite)
@@ -78,9 +86,6 @@
 
 (only _main_ components, minor ones may be skipped)
 
-## Screenshot
-
-![risposta](./client/risposta.jpeg)
 
 ## Users Credentials
 
