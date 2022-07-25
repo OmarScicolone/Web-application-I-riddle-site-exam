@@ -1,7 +1,8 @@
 # Exam #2: "Indovinelli"
-## Student: s296492 SCICOLONE OMAR 
+## Student: SCICOLONE OMAR 
 
-## React Client Application Routes
+## Purpose of the project
+Site created for the exam of the "web applications" course. The main purpose of the project was to create a site that would allow you to create riddles and answer those of other users
 
 ## Screenshot
 
@@ -10,6 +11,8 @@
 ![nuovo_indovinello](./client/new_riddle.jpeg)
 ![rank](./client/rank.jpeg)
 ![risposta](./client/risposta.jpeg)
+
+## React Client Application Routes
 
 - Route `/`: porta alla pagina principale attraverso la quale si accede a tutte le funzionalità dell'applicazione. Nel caso non si fosse loggati, la route riporterà alla route /login.
 - Route `/filter/:activeFilter`: porta alla pagina principale specificando cosa deve essere visualizzato (tutti gli indovinelli, gli indovinelli dell'utente loggato, la classifica) grazie al parametro "active filter". Nel caso non si fosse loggati, la route riporterà alla route /login.
